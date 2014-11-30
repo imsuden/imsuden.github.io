@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Notebooks Out!</title>
+		<title>War &#8212; Notebooks Out!</title>
 		
 		<script>
 		WebFontConfig = {
@@ -34,7 +34,7 @@
 		
 			<div class="wrapper">
 		
-				<h1 class="site-title"><a href="/">Notebooks Out!</a></h1>
+				<h1 class="site-title"><a href="#">Notebooks Out!</a></h1>
 				
 			</div>
 		
@@ -50,7 +50,7 @@
 		
 						<p><time>30/11/14</time></p>
 
-						<h1 class="entry-title"><a href="/war">All a battle</a></h1>
+						<h1 class="entry-title">All a battle</h1>
 			
 					</header>
 		
