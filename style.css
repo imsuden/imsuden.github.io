@@ -1,0 +1,141 @@
+/*
+
+Size em		Pixels		Line height	px		Line height em
+0.8077		16.154		20					1.2381
+1			20			28					1.4
+1.3077		26.154		32					1.2236
+1.6154		32.308		36					1.1143
+
+*/
+
+
+/*
+1.	BASE
+--------
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	border-top: 1em solid #444;
+}
+
+body {
+	font-size: 100%;
+	line-height: 1.4;
+	font-family: Lato, sans-serif;
+	color: #444;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: #FF00A5;
+}
+
+a:hover,
+a:active,
+a:focus {
+	background-color: #F1F1F1;
+}
+
+
+/*
+2.	LAYOUT
+----------
+*/
+
+.wrapper {
+	max-width: 32em;
+	margin: 0 auto;
+	padding: 0 1.4em;
+}
+
+#site-header {
+	padding: 0.7em 0;
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #AAA;
+	border-top: 0.1em solid #FF00A5;
+}
+
+#content {
+	padding-top: 2.8em;
+}
+
+
+/*
+3.	MODULES
+-----------
+*/
+
+.site-title {
+	font-weight: 300;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.entry {
+	padding: 1.4em 0;
+	border-bottom: 1px dotted #AAA;
+}
+
+	.entry-title {
+		font-weight: 300;
+		font-size: 1.6154em;
+		line-height: 1.1143em;
+		padding: 0;
+		margin: 0 0 0.4952em 0;
+	}
+
+	.entry-header p {
+		color: #AAA;
+		font-size: 0.8077em;
+		line-height: 1.2381em;
+		margin-bottom: 0.2476em;
+	}
+
+	.entry-content p,
+	.entry-content ul,
+	.entry-content ol {
+		margin-bottom: 0.8em;
+		-moz-hyphens: auto
+		-webkit-hyphens: auto;
+		hyphens: auto;
+	}
+	
+	.entry-content img {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: auto;
+		max-width: 100% !important;
+		height: auto !important;
+		border: 1px solid #F1F1F1;
+		margin-bottom: 0.8em;
+	}
+	
+.highlight {
+	background-color: #444;
+	color: #FFF;
+}
+	
+
+/*
+4.	WIDE
+--------
+*/
+
+@media screen and (min-width: 768px) {
+
+	body {
+		font-size: 118.75%;
+	}
+	
+} /* End widescreen */
