@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Posts &#8212; Notebooks Out!</title>
+		<title>Creative commons &#8212; Notebooks Out!</title>
 		
 		<script>
 		WebFontConfig = {
@@ -46,19 +46,19 @@
 			
 				<div class="wrapper">
 	
-					<div class="entry-header">
+					<header class="entry-header">
+		
+						<p><time>30/11/14</time></p>
 
-						<h1 class="entry-title">Notes, no queries</h1>
+						<h1 class="entry-title">Creative commons</h1>
 			
-					</div>
+					</header>
 		
 					<div class="entry-content">
 
-						<ul>
+						<p><a href="https://twitter.com/adrianshort/status/539463291131932672">Adrian is right: a license is a license</a>. It lays down what you can and can't do with something, while asserting ownership and authorship. I guess you could have a license that says a piece of work is usable as long as you're not [insert list of the man's companies].</p>
 						
-							<li><a href="/notes/war">War</a></li>
-							
-						</ul>
+						<p>Yes, it is <a href="https://twitter.com/adrianshort/status/539466093249970176">interesting how some interpret a license from an anti&#8211;big&#8211;business rather free culture perspective</a>. Or rather, that is the entirely right interpretation of a license, but it <em>is</em> right to fight business than assert free usage of work.</p>
 			
 					</div>
 					
